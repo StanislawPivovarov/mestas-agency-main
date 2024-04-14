@@ -4,7 +4,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ChakraProvider } from "@chakra-ui/react";
-
+import "@fontsource/montserrat"
+import { ConfigProvider } from "antd";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
 
@@ -21,11 +22,16 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={montserrat.className}>
-
-
+        <ConfigProvider
+        theme={{
+          token: {
+            fontFamily: "Montserrat"
+          }
+        }}>
           <Header />
           {children}
           <Footer />
+        </ConfigProvider>
 
       </body>
     </html>

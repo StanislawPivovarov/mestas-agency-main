@@ -8,16 +8,13 @@ import { ChakraProvider, DrawerContent, DrawerHeader } from "@chakra-ui/react";
 
 import styles from './styles.module.scss'
 import Logo from '@/assets/layout/logo.svg'
-import { Drawer } from "antd";
+import { Divider, Drawer } from "antd";
 
 
 const Header = () => {
 
  const [state, { toggle }] = useToggle()
  const [color, setColor] = useState<string>("#fff")
-
- console.log(state)
- console.log(color)
 
  const pathStyles = state ? { transition: "fill 0.4s cubic-bezier(0, 0, 0, 1) 0s", transitionDelay: " 0.2s" } : { transition: "all 0s cubic-bezier(0, 0, 0, 1) 0s" }
 
@@ -55,10 +52,24 @@ const Header = () => {
     onClose={toggle}
     closable={false}
    >
+    <ul className={styles.drawer_body}>
+     <li>
+      <a className="mainLink" href="/">main.</a>
+     </li>
+     <li>
+      <a className="photoLink" href="/photography">photography.</a>
+     </li>
+     <li>
+      <a className="cvLink" href="/curriculum-vitae">CV</a>
+     </li>
+    </ul>
+    <Divider style={{fill: "#000", height: 2}}/>
+    <div className={styles.description}>
+
+    </div>
+
    </Drawer>
-
   </div>
-
  )
 }
 
