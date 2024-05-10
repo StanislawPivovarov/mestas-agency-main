@@ -5,7 +5,7 @@ import { GoArrowRight } from "react-icons/go";
 
 import annie from '@/assets/Annie_Leibovitz-SF-2-Cropped.jpg'
 
-const AlbumCover = () => {
+const AlbumCover = (title?: string, id?: any, description?: string, cover?: string) => {
  return (
   <div className={styles.wrapper}>
    <div className={styles.image_wrapper}>

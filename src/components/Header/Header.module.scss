@@ -1,0 +1,22 @@
+.wrapper {
+ margin-top: 20px;
+ height: 60px;
+}
+
+.logo {
+ height: 45px;
+ width: auto;
+}
+
+.wrapper_items {
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.navigation {
+ display: flex;
+ flex-direction: row;
+
+}
