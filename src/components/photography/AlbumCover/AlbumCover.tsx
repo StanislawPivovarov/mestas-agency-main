@@ -16,8 +16,6 @@ const AlbumCover = () => {
      <h1 className={styles.album_name}>Annie Leibowitz</h1>
      <p className={styles.album_description}>
       quasi excepturi blanditiis unde, laborum tenetur quas porro velit ducimus architecto earum molestiae aspernatur eveniet.
-     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda in suscipit neque nihil sapiente omnis, quidem iure laudantium tempore! Iure tempore accusamus placeat facilis voluptate dolor cum architecto adipisci earum!
-     lorem dolor cum architecto adipisci earum! dolor cum architecto adipisci earum!
      </p>
     </div>
     <div className={styles.button_wrapper}>

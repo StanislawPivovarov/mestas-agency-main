@@ -3,8 +3,12 @@ import "./globals.scss";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { ChakraProvider } from "@chakra-ui/react";
-import "@fontsource/montserrat"
-
+import "@fontsource-variable/unbounded"
+import '@fontsource/cormorant-garamond/300-italic.css';
+import '@fontsource/cormorant-garamond/400-italic.css';
+import '@fontsource/cormorant-garamond/500-italic.css';
+import '@fontsource/cormorant-garamond/600-italic.css';
+import '@fontsource/cormorant-garamond/700-italic.css';
 
 export const metadata: Metadata = {
   title: "Create Next App",

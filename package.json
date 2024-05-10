@@ -13,6 +13,8 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
+    "@fontsource-variable/unbounded": "^5.0.20",
+    "@fontsource/cormorant-garamond": "^5.0.13",
     "@fontsource/montserrat": "^5.0.17",
     "@gsap/react": "^2.1.0",
     "ahooks": "^3.7.11",

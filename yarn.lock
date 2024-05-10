@@ -1072,6 +1072,16 @@
   resolved "https://registry.yarnpkg.com/@eslint/js/-/js-8.57.0.tgz#a5417ae8427873f1dd08b70b3574b453e67b5f7f"
   integrity sha512-Ys+3g2TaW7gADOJzPt83SJtCDhMjndcDMFVQ/Tj9iA1BfJzFKD9mAUXT3OenpuPHbI6P/myECxRJrofUsDx/5g==
 
+"@fontsource-variable/unbounded@^5.0.20":
+  version "5.0.20"
+  resolved "https://registry.yarnpkg.com/@fontsource-variable/unbounded/-/unbounded-5.0.20.tgz#360556e7dd8ef594f30f8b433bb8a2b18a33b173"
+  integrity sha512-EhNIAsgo3KpFRkekym4cqlvBzO1MKoPf1oURVhtvUjDlYLCGRHuazoyu6XwXYHQmGjXa1Cf9LHtnOtFsjsfQDQ==
+
+"@fontsource/cormorant-garamond@^5.0.13":
+  version "5.0.13"
+  resolved "https://registry.yarnpkg.com/@fontsource/cormorant-garamond/-/cormorant-garamond-5.0.13.tgz#8cac2d5b0f30e45b7220f02c16e67d0a814c6c32"
+  integrity sha512-zKKCNXP6RbQEV4IYdRUdDd3PF/IbeI61FZwR2Dhpkbp05G1cTXzdIS5QqyHNg3EMafZr3nM8bd5tU5LMMx/8GA==
+
 "@fontsource/montserrat@^5.0.17":
   version "5.0.17"
   resolved "https://registry.yarnpkg.com/@fontsource/montserrat/-/montserrat-5.0.17.tgz#ea8003b028dc41d5baab1ab7765193fd342548c3"
